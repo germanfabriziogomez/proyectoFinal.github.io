@@ -1,0 +1,27 @@
+
+header {
+    background-image: linear-gradient(rgba(196, 196, 196, 0.71),rgba(196, 196, 196, 0)),url('../../assets/hero-2.jpg');
+    width: 100%;
+    background-size: cover;
+    padding: 30px;
+}
+
+.contenido {
+    padding: 30px;
+    width: 50%;
+    margin-right: auto;
+}
+
+h1,h2,h3{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+

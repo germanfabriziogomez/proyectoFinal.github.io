@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #5a9df7;
+    outline: none;
+  }
+  
+  textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  button {
+    background-color: #5a9df7;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4181c9;
+  }
+  
+  button[type="button"] {
+    background-color: #f44336;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Ingredientes dinámicos */
+  #ingredientsContainer {
+    margin-bottom: 20px;
+  }
+  
+  #ingredientsList input {
+    margin-bottom: 10px;
+  }
+  
+  button[type="button"] {
+    display: inline-block;
+    width: auto;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Mostrar receta guardada */
+  #savedRecipe {
+    background-color: #e9f7ec;
+    border: 1px solid #28a745;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  #savedRecipe ul {
+    padding-left: 20px;
+  }
+  
+  #savedRecipe ul li {
+    margin-bottom: 5px;
+  }
+  
